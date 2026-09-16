@@ -489,9 +489,6 @@ european-fashion-store-analytics/
 └── LICENSE
 ```
 
-> **Note:** If the original dataset cannot be publicly shared, keep the dataset out of the repository and provide a data dictionary instead.
-
----
 
 # 📌 Project Outcome
 
