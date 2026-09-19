@@ -421,11 +421,11 @@ Use the Power BI dashboard as an ongoing performance-monitoring tool for busines
 
 # 📁 Repository Structure
 
-```text
 european-fashion-store-analytics/
 │
 ├── README.md
 │
+<<<<<<< HEAD
 ├── Dashboard images/
 │   ├── 1st image Report Home & Navigation.png
 │   ├── 2nd Data Modeling.png
@@ -437,12 +437,34 @@ european-fashion-store-analytics/
 │
 ├── powerbi/
 │   └── European_Fashion_Store_Dashboard.pbix
+=======
+├── data/
+│   └── data_dictionary.md
+│
+├── powerbi/
+│   └── European_Fashion_Store_Dashboard.pbix
+│
+├── screenshots/
+│   ├── report_home.png
+│   ├── data_model.png
+│   ├── campaign_analytics.png
+│   ├── customer_analytics.png
+│   ├── product_performance.png
+│   ├── executive_sales_overview.png
+│   └── inventory_stock_analytics.png
+│
+├── documentation/
+│   └── European_Fashion_Store_BI_Presentation.pdf
+>>>>>>> 1f9e393dc29646e5dea59cc77087b3a7d23959d2
 │
 └── documentation/
     └── European_Fashion_Store_BI_Presentation.pdf
 ```
 
+<<<<<<< HEAD
 ---
+=======
+>>>>>>> 1f9e393dc29646e5dea59cc77087b3a7d23959d2
 
 # 🎯 Project Outcome
 
