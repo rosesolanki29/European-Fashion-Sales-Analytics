@@ -134,7 +134,7 @@ The landing page provides an overview of the complete analytics suite.
 
 ### Dashboard Preview
 
-![Report Home & Navigation](Dashboard images/Report Home & Navigation.png)
+![Report Home & Navigation](Dashboard-images/Report-Home-Navigation.png)
 
 ---
 
@@ -472,8 +472,5 @@ The final report enables stakeholders to:
 
 **Roz Rajak**
 
-**Data Analytics | Power BI | SQL | Excel | Python**
+**Data Analytics | Power BI | Excel | 
 
----
-
-⭐ **If you find this project useful, feel free to explore the dashboards and documentation.**
