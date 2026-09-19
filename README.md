@@ -157,7 +157,7 @@ This page presents the underlying Power BI data model.
 
 ### Dashboard Preview
 
-![Data Modeling](Dashboard%20images/2nd%20Data%20Modeling.png)
+![Data Modeling](Dashboard-images/Data-Modeling.png)
 
 ---
 
@@ -185,7 +185,7 @@ The Campaign Analytics dashboard evaluates promotional activity and discount per
 
 ### Dashboard Preview
 
-![Campaign Analytics](Dashboard%20images/3rd%20Campaign%20Analytics.png)
+![Campaign Analytics](Dashboard-images/Campaign-Analytics.png)
 
 ---
 
@@ -214,7 +214,7 @@ The Customer Analytics dashboard focuses on customer distribution and purchasing
 
 ### Dashboard Preview
 
-![Customer Analytics](Dashboard%20images/4th%20Customer%20Analytics.png)
+![Customer Analytics](Dashboard-images/Customer-Analytics.png)
 
 ---
 
@@ -250,7 +250,7 @@ The Product Performance dashboard analyzes product and brand-level performance.
 
 ### Dashboard Preview
 
-![Product Performance](Dashboard%20images/5th%20Product%20Performance.png)
+![Product Performance](Dashboard-images/Product-Performance.png)
 
 ---
 
@@ -279,7 +279,7 @@ The five product categories contribute relatively evenly to overall revenue, at 
 
 ### Dashboard Preview
 
-![Executive Sales Overview](Dashboard%20images/6th%20Executive%20Sales%20Overview.png)
+![Executive Sales Overview](Dashboard-images/EXecutive-Sales-Overview.png)
 
 ---
 
@@ -308,7 +308,7 @@ The Inventory & Stock dashboard monitors product availability and inventory dist
 
 ### Dashboard Preview
 
-![Inventory & Stock Analytics](Dashboard%20images/7th%20Inventory%20%26%20Stock%20Analytics.png)
+![Inventory & Stock Analytics](Dashboard-images/Inventory-Stock -Analytics.png)
 
 ---
 
