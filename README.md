@@ -12,13 +12,13 @@ The **European Fashion Store Sales & Business Analytics Dashboard** provides a c
 
 The project analyzes:
 
-* 💰 Sales performance
-* 👥 Customer behavior
-* 👗 Product performance
-* 📢 Campaign effectiveness
-* 📦 Inventory and stock availability
-* 🌍 Country performance
-* 📱 Sales channel performance
+* 💰 Sales Performance
+* 👥 Customer Behavior
+* 👗 Product Performance
+* 📢 Campaign Effectiveness
+* 📦 Inventory & Stock Availability
+* 🌍 Country Performance
+* 📱 Sales Channel Performance
 
 ### Analytics Flow
 
@@ -35,7 +35,7 @@ The project analyzes:
 * Monitor inventory and stock-out situations.
 * Compare performance across countries and sales channels.
 * Build an interactive Power BI Business Intelligence solution.
-* Generate actionable recommendations from the analysis.
+* Generate actionable business recommendations.
 
 ---
 
@@ -67,71 +67,13 @@ The project uses **six relational tables** covering different aspects of the fas
 | **Stock**                  | Inventory and stock availability                                       |
 | **Stores Sales**           | Sales, customers, channels, countries and revenue                      |
 
-### Customer
-
-* Age Range
-* Country
-* Customer ID
-* New Customer
-* Signup Date
-
-### Fashion Store Campaign
-
-* Campaign ID
-* Campaign Name
-* Channel
-* Discount Type
-* Discount Value
-* Start Date
-* End Date
-
-### Product
-
-* Brands
-* Buy Price
-* Category
-* Colour
-* Gender
-* MSRP
-* Product Name
-* Size
-
-### Sales Item
-
-* Channel
-* Channel Campaign
-* Item ID
-* Item Total
-* Original Price
-* Quantity
-* Sale Date
-* Sale ID
-
-### Stock
-
-* Country
-* Out of Stock
-* Product ID
-* Stock Quantity
-
-### Stores Sales
-
-* Channel
-* Country
-* Customer ID
-* Running Total Sales
-* Sales Date
-* Sale ID
-* Total Sales
-* Total Amount
-
 ---
 
 ## 🧹 Data Preparation & Transformation
 
 The data was prepared before building the Power BI dashboards.
 
-### Key preparation steps
+### Key Preparation Steps
 
 * Data cleaning
 * Duplicate handling
@@ -167,13 +109,11 @@ The project uses a **star-schema-style relational model** across the six tables.
 
 The model uses **one-to-many relationships** to support appropriate filter propagation and reliable DAX calculations.
 
-The structured model enables analysis across customers, products, campaigns, sales, inventory, countries, and channels.
-
 ---
 
-# 📈 Power BI Dashboards
+# 📈 Power BI Dashboard
 
-The Power BI report contains **six analytical dashboards/pages plus report navigation and data-model views**.
+The Power BI report contains **7 report pages**, including the navigation page, data model, and five analytical/business dashboards.
 
 ---
 
@@ -181,10 +121,10 @@ The Power BI report contains **six analytical dashboards/pages plus report navig
 
 The landing page provides an overview of the complete analytics suite.
 
-### Features
+### Key Features
 
-* Central navigation across the connected data tables
-* One-click navigation to analytical pages
+* Central navigation across the report
+* Access to Campaign, Customer, Product, Sales and Inventory pages
 * Business-purpose descriptions for each report section
 * Quick orientation across the complete Power BI report
 
@@ -192,9 +132,13 @@ The landing page provides an overview of the complete analytics suite.
 
 > **How can stakeholders navigate the full analytics suite quickly?**
 
+### Dashboard Preview
+
+![Report Home & Navigation](Dashboard%20images/1st%20image%20Report%20Home%20%26%20Navigation.png)
+
 ---
 
-## 2️⃣ Data Model & Relationships
+## 2️⃣ Data Modeling
 
 This page presents the underlying Power BI data model.
 
@@ -211,6 +155,10 @@ This page presents the underlying Power BI data model.
 
 > **How is the underlying data structured to support reliable analysis?**
 
+### Dashboard Preview
+
+![Data Modeling](Dashboard%20images/2nd%20Data%20Modeling.png)
+
 ---
 
 ## 3️⃣ Campaign Analytics
@@ -219,10 +167,10 @@ The Campaign Analytics dashboard evaluates promotional activity and discount per
 
 ### Key Analysis
 
-* **7 campaigns** tracked
+* 7 campaigns tracked
 * Average discount value of **3.29**
-* Discount activity by campaign
-* Campaign performance across channels
+* Discount value by campaign
+* Campaign channel performance
 * Sales by customer age range
 
 ### Key Findings
@@ -234,6 +182,10 @@ The Campaign Analytics dashboard evaluates promotional activity and discount per
 ### Business Question
 
 > **Which campaigns and promotional strategies perform effectively?**
+
+### Dashboard Preview
+
+![Campaign Analytics](Dashboard%20images/3rd%20Campaign%20Analytics.png)
 
 ---
 
@@ -248,22 +200,21 @@ The Customer Analytics dashboard focuses on customer distribution and purchasing
 * Country filtering
 * Year filtering
 * Category-level buying trends
-* Product pricing comparison
+* Average Buy Price vs MSRP
 
 ### Key Findings
 
-* The analysis covers **1,000 customers** across:
-
-  * France
-  * Italy
-  * Germany
-  * Netherlands
+* The analysis covers **1,000 customers** across France, Italy, Germany and the Netherlands.
 * **T-Shirts, Shoes and Dresses** are among the leading buying categories.
 * Average Buy Price and MSRP are compared across top products.
 
 ### Business Question
 
 > **Who are our customers, and how do they contribute to the business?**
+
+### Dashboard Preview
+
+![Customer Analytics](Dashboard%20images/4th%20Customer%20Analytics.png)
 
 ---
 
@@ -280,23 +231,26 @@ The Product Performance dashboard analyzes product and brand-level performance.
 * MSRP vs Buy Price
 * Colour
 * Size
-* Category filtering
 
 ### Key Findings
 
 * **499 products** are tracked.
-* Five major brands are represented:
+* Five brands are represented:
 
   * Savana
   * H&M
   * Zara
   * Gucci
   * NEW ME
-* MSRP vs Buy Price is compared by category to evaluate margin patterns.
+* MSRP vs Buy Price is compared by category to assess margin patterns.
 
 ### Business Question
 
 > **Which products, brands and categories are driving performance?**
+
+### Dashboard Preview
+
+![Product Performance](Dashboard%20images/5th%20Product%20Performance.png)
 
 ---
 
@@ -309,22 +263,23 @@ The Executive Sales Overview provides a high-level view of overall business perf
 * Total Sales
 * Customer Count
 * Country Count
-* Channel performance
+* Sales channel performance
 * Category revenue contribution
 * Interactive channel filtering
 
 ### Key Finding
 
-**Instagram outperforms the Mobile App**, contributing approximately:
-
-* Instagram: **172K**
-* Mobile App: **153K**
+**Instagram** contributes approximately **172K** in sales compared with **153K** from the **Mobile App**.
 
 The five product categories contribute relatively evenly to overall revenue, at approximately **20% each**.
 
 ### Business Question
 
 > **How is the fashion store performing overall?**
+
+### Dashboard Preview
+
+![Executive Sales Overview](Dashboard%20images/6th%20Executive%20Sales%20Overview.png)
 
 ---
 
@@ -343,13 +298,17 @@ The Inventory & Stock dashboard monitors product availability and inventory dist
 ### Key Findings
 
 * **1,000 total stock units** are tracked.
-* **499 categories/products** are represented in the analysis.
-* Stock status is shown as **45.65% in stock vs 45.65% out of stock**.
+* **499 products/categories** are represented in the analysis.
+* Stock status shows **45.65% in stock vs 45.65% out of stock**.
 * **Dresses and T-Shirts** hold the highest stock quantities.
 
 ### Business Question
 
 > **Where are the inventory gaps that could affect sales?**
+
+### Dashboard Preview
+
+![Inventory & Stock Analytics](Dashboard%20images/7th%20Inventory%20%26%20Stock%20Analytics.png)
 
 ---
 
@@ -392,8 +351,6 @@ Sales are tracked across multiple European countries and digital channels, enabl
 ---
 
 # 💡 Business Recommendations
-
-Based on the dashboard analysis:
 
 ### 1. Reduce Stock-Out Risk
 
@@ -469,29 +426,25 @@ european-fashion-store-analytics/
 │
 ├── README.md
 │
-├── data/
-│   └── data_dictionary.md
-│
 ├── Dashboard images/
-│   ├── report_home.png
-│   ├── data_model.png
-│   ├── campaign_analytics.png
-│   ├── customer_analytics.png
-│   ├── product_performance.png
-│   ├── executive_sales_overview.png
-│   └── inventory_stock_analytics.png
+│   ├── 1st image Report Home & Navigation.png
+│   ├── 2nd Data Modeling.png
+│   ├── 3rd Campaign Analytics.png
+│   ├── 4th Customer Analytics.png
+│   ├── 5th Product Performance.png
+│   ├── 6th Executive Sales Overview.png
+│   └── 7th Inventory & Stock Analytics.png
 │
-├── PPT/
-│   └── European_Fashion_Store_BI_Presentation.pdf
+├── powerbi/
+│   └── European_Fashion_Store_Dashboard.pbix
 │
-└── LICENSE
+└── documentation/
+    └── European_Fashion_Store_BI_Presentation.pdf
 ```
-
-> **Note:** If the original dataset cannot be publicly shared, keep the dataset out of the repository and provide a data dictionary instead.
 
 ---
 
-# 📌 Project Outcome
+# 🎯 Project Outcome
 
 This project transformed **six connected fashion-retail tables** into a centralized and interactive Power BI Business Intelligence solution.
 
@@ -509,7 +462,7 @@ The final report enables stakeholders to:
 
 ---
 
-## 🎯 Final Takeaway
+## 🚀 Final Takeaway
 
 > **Turning Retail Data into Actionable Business Insights.**
 
@@ -519,8 +472,4 @@ The final report enables stakeholders to:
 
 **Roz Rajak**
 
-**Data Analytics | Power BI | SQL | Excel |
-
----
-
-⭐ **If you find this project useful, feel free to explore the dashboards and documentation.**
+**Data Analytics | Power BI | SQL | Excel | Python**
