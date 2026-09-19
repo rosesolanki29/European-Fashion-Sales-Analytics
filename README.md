@@ -308,7 +308,7 @@ The Inventory & Stock dashboard monitors product availability and inventory dist
 
 ### Dashboard Preview
 
-![Inventory & Stock Analytics](Dashboard-images/Inventory-Stock-Analytics.png)
+![Inventory & Stock Analytics](Dashboard-images/Inventory-Stock -Analytics.png)
 
 ---
 
